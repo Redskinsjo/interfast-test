@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  height: 100%;
+}
+.add {
+  position: absolute;
+  right: 90px;
+  bottom: 50px;
+  width: 62.5px;
+  height: 62.5px;
+  background: #63a0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.addIcon {
+  font-size: 28px;
+  color: white;
+}

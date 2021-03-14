@@ -1,0 +1,48 @@
+.container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 40px rgba(0, 66, 218, 0.1),
+    0px 0px 40px rgba(0, 66, 218, 0.1);
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4686ee;
+  line-height: 25.31px;
+  padding: 10px;
+  margin: 0 10px 0 20px;
+  flex-grow: 1;
+}
+.logo {
+  width: 38px;
+  height: 38px;
+  margin: 0 10px;
+}
+.userGreetings {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16.88px;
+  margin: 0 10px;
+}
+.date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 12.66px;
+  color: white;
+  width: 82px;
+  height: 27px;
+  background: #4686ee;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.logout {
+  background: "#2F80ED";
+}
